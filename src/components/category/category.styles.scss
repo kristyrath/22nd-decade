@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     color: #ffffff;
-
+    
     .categories-bg-container {
         background-size: cover;
         background-position: center;
@@ -13,10 +13,11 @@
 
     h1 {
         font-size: 6rem;
-        margin: 35rem 0 0 0;
         padding: 0 3rem 0 0;
         color: #D37455;
         text-align: right;
+        position: relative;
+        top: 40%;
     }
  
     .category-container {
