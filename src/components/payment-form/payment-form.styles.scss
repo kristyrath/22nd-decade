@@ -1,0 +1,64 @@
+.payment-form-wrapper-container {
+    color: #ffffff;
+    .payment-title-container {
+        background-color: #232E2D;
+        width: 50rem;
+        padding: 0.5rem 0;
+        text-align: center;
+        margin: 0 auto;
+        h1 {
+            color: #d37455;;
+        }
+    }
+    .payment-form-container {
+        margin: 0 auto;
+        width: 50rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;    
+        background-color: #405554;
+        .error-message-container {
+            color: #d37455;
+            width: 100%;
+            text-align: center;
+            
+
+        }
+      
+    }
+    
+    .form-container {
+        font-size: 1rem;
+        height: 2rem;
+        width: 50%;
+        padding: 5rem;
+    }
+    
+    .payment-button-container{
+        margin: 1rem 0;
+        width: 10rem;
+    }
+    .payment-info { 
+        height: 9rem;
+        margin-top: 1.3rem;
+        
+        width: 40%;
+        padding: 0 1rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        span {
+            font-size: 0.8rem;
+        }
+        .credentials-section { 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+      
+    
+    
+}

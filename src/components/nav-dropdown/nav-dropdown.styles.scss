@@ -1,0 +1,24 @@
+.nav-dropdown-container { 
+    position: relative;
+    top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    .subdir-link { 
+        color: #000000;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        padding: 0.5rem 0;
+        width: 100%;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+    }
+    .subdir-link:hover { 
+        background-color: #d37455;
+        color: #ffffff;
+        border: 1px solid #d37455 ;    
+    }
+}

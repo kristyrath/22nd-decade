@@ -1,0 +1,34 @@
+.category-item-container { 
+    height: 14rem;
+    width: 12rem; 
+    background-color: blanchedalmond;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    .category-item-img {
+        height: 100%;
+        width: 100%; 
+        background-size: cover;
+        background-position: center;   
+        display: flex;
+        .button-container {
+            align-self: flex-end;
+            width: 100%;
+        }
+        .hidden {
+            display: none;
+        }
+    }
+    
+    .category-item-details { 
+        height: 4rem;
+        overflow: hidden;
+        text-align: left;
+        gap: 0.7rem;
+        color: #ffffff;
+        padding: 0.6rem 0;
+        display: flex; 
+        justify-content:space-between;
+
+    }
+}
+

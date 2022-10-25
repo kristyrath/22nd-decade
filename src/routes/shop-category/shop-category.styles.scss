@@ -1,0 +1,45 @@
+
+.shop-category-container { 
+    background-color: #000000;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 4rem 0;
+    h1 {
+        color: #d37455;
+        font-family: 'Quattrocento', serif;
+    
+    }
+    .line {
+        max-width: 57rem;
+        margin: 0 auto;
+        border: solid #000000;
+        border-width: 0 0 1px 0;
+    
+        width: 100%;
+
+    }
+
+    .shop-category-items-container { 
+        max-width: 60rem;
+        min-height: 30rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content:first baseline;
+        flex-wrap: wrap;
+        .shop-category-item-container {
+            margin: 3.5rem 1.5rem;
+        }
+
+    }
+}
+
+
+
+@media (max-width: 800px) {
+
+    .shop-category-item-container {
+        margin: 2rem 0;
+    }
+}

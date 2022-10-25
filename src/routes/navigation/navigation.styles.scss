@@ -1,0 +1,34 @@
+.navigation {
+    position: fixed;
+    width: 100vw;
+    top: 0rem;    
+    padding: 0.5rem;
+    overflow: visible;
+
+    .nav-links-container {
+        display: flex;
+        flex-direction: row;
+        justify-content:right;
+        margin-bottom: 1rem;
+        padding: 2rem;
+  
+        .icon {
+            font-size: 2.2rem;
+        }
+        .nav-link { 
+            border-color: #000000;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 1.5rem 2rem;
+        
+            font-weight: 300;            
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1.2rem;
+        }
+        .nav-link:hover { 
+            color: #d37455;
+
+        }
+
+    }
+}

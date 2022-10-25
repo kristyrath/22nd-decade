@@ -1,0 +1,29 @@
+.footer-container { 
+    background-color: #232E2D;
+    color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    
+    @media (max-width: 800px) {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .contact-info-section {
+        text-align: right;
+        padding: 2rem;
+
+    }
+    .creators-note-section { 
+        color: #D37455;
+        padding: 2rem;
+        max-width: 25rem;
+        p {
+            line-height: 2rem;
+
+
+        }
+    }
+}
