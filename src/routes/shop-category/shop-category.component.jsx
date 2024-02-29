@@ -9,11 +9,8 @@ const ShopCategory = (props) => {
     const isLoading = useSelector(selectIsLoading);
     
     return (
-    <div className='shop-category-container' style={{
-        backgroundImage: `url(${GreenBackground})`
-    }}>
-        <h1>{categoryTitle[0].toUpperCase() + categoryTitle.substring(1)}</h1>
-        <div className='line'></div>
+    <div className='shop-category-container'>
+        <h2>{categoryTitle[0].toUpperCase() + categoryTitle.substring(1)}</h2>
         <div className='shop-category-items-container'>
             {   isLoading ? <></> :
                 categoryMap[categoryTitle]?.map((item) => {

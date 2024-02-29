@@ -1,31 +1,45 @@
 
 .header-container {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     position: block;
-    color: #D37455;
-    line-height: 3rem;
+    color: #000000;
     background-color: #ffffff;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    .header-text { 
-        margin: 0 auto;
-        text-align: center; 
+    text-align: left; 
+    .header-elements-container {
+        position: relative;
+        top: 5rem;
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        line-height: 0.8rem;
         h1 {
-            font-size: 10rem;
+            font-size: 3rem;
+            font-family: "Inter", sans-serif;
+            font-weight: bold;
+            color: #d37455;
         }
-        .subtext {
-            font-family: 'EB Garamond', serif;
-            font-size: 2rem;
+        p {
+            font-size: 1.2rem;
+        
+        }
+        .header-img-container {
+            width: 100%; 
+            height: auto; 
+            display: block; 
+            img {
+                height: 25rem;
+            }
+        }
+        .shop-now-button-container { 
+            background-color: #000000;
+            max-width: 6rem;
+            font-size: 1.1rem;
+            padding: 0.7rem;
             color: #ffffff;
-
-        }
-        .italicized {
-            font-weight: italic;
-            position: relative;
-            bottom: 2rem;
+            text-align: center;
         }
     }
 

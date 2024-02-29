@@ -1,52 +1,43 @@
 .categories-container {
     width: 100%;
-    display: flex;
-    color: #ffffff;
-    
-    .categories-bg-container {
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 100%;
+    padding: 0 0 0 3rem;
 
-    }
-
-    h1 {
-        font-size: 6rem;
-        padding: 0 3rem 0 0;
-        color: #D37455;
-        text-align: right;
-        position: relative;
-        top: 40%;
-    }
+    // h1 {
+    //     font-size: 6rem;
+    //     padding: 0 3rem 0 0;
+    //     color: #D37455;
+    //     text-align: right;
+    //     position: relative;
+    //     top: 40%;
+    // }
  
-    .category-container {
-        display: flex;
-        flex-direction: column;
-        font-size: 2rem;
-        background-color: #232E2D;
-        height: 100vh;
-        width: 100%;
-        position: relative; 
-        left: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        .category-link {
-            text-decoration: none;
-            color: #ffffff;
-            align-self: center;
-            margin: auto;
-        }
-        .category-link:hover {
-            color: #D37455;
-        }
-        .line {
-            border-width: 0 0 1px 0;
-            border-style: solid;
-            width: 15rem;
-            margin: 0 auto;
-            border-color: #ffffff;
-        }
-    }
+    // .category-container {
+    //     display: flex;
+    //     flex-direction: column;
+    //     font-size: 2rem;
+    //     background-color: #232E2D;
+    //     height: 100vh;
+    //     width: 100%;
+    //     position: relative; 
+    //     left: 0;
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: space-around;
+    //     .category-link {
+    //         text-decoration: none;
+    //         color: #ffffff;
+    //         align-self: center;
+    //         margin: auto;
+    //     }
+    //     .category-link:hover {
+    //         color: #D37455;
+    //     }
+    //     .line {
+    //         border-width: 0 0 1px 0;
+    //         border-style: solid;
+    //         width: 15rem;
+    //         margin: 0 auto;
+    //         border-color: #ffffff;
+    //     }
+    // }
 }

@@ -3,13 +3,11 @@
     padding: 6rem 0 13rem 0;
 
     .signup-form-container { 
-        background-color: #405554;
+        background-color: #ededed;
         padding: 2rem 0;
-        color: #ffffff;
         width: 40vw;
         margin: 0 auto 0 auto;
         display: flex;
-        font-family: 'Open Sans', 'sans-serif';
         @media (max-width: 900px) {
             width: 50%;
             flex-direction: column-reverse;
@@ -60,7 +58,7 @@
         .signin-link {
             text-decoration: none;
             color: #000000;
-            font-weight: bold;
+            font-weight: normal;
             border: solid #000000;
             border-width: 0 0 1px 0;
             margin: 0.4rem auto; 

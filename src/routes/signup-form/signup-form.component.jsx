@@ -56,12 +56,10 @@ const SignUpForm = () => {
         }
     };
     return(
-        <div className='signup-form-wrapper-container' style={{
-            backgroundImage: `url(${GreenBackground})`
-        }}>
+        <div className='signup-form-wrapper-container'>
             <div className ='signup-form-container'>
                 <div className = 'signup-input-container'>
-                    <h1>REGISTER A NEW ACCOUNT</h1>
+                    <h1>Register</h1>
                     <span className='signup-description'>Sign up with your email and password</span>
                     <div className = 'line'></div>
                     <form onSubmit={handleSubmit}>
@@ -73,7 +71,7 @@ const SignUpForm = () => {
                         <input type='password' name='password' value={password} onChange={handleChange} required/>
                         <label for='confirm_password'>Confirm Password</label>
                         <input type='password' name='confirm_password' value={confirm_password} onChange={handleChange} required/>
-                        <Button type='submit'>SIGN UP</Button>
+                        <Button type='submit'>Sign Up</Button>
                     </form>
                     <div className= 'divider'> 
                         <div className = 'line'></div>
@@ -82,7 +80,7 @@ const SignUpForm = () => {
                     </div>
                     <span className='signup-description'>Sign up with your Google account</span>
                     <div onClick = {signUpWithGoogle}>
-                        <Button type='button' style='google_button' onClick={signInWithGooglePopUp}>SIGN UP WITH GOOGLE</Button>
+                        <Button type='button' style='google_button' onClick={signInWithGooglePopUp}>Sign up with Google</Button>
                     </div>
                     <Link className='signin-link' to='/signin'>Already have an account? Sign in</Link>
 

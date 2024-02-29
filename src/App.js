@@ -25,7 +25,12 @@ const App = () => {
   return (
     <Routes>
       <Route path ='/' element  = {<><Navigation/></>}>
-        <Route index element = {<><Home/><Footer/></> } />
+        <Route index element = {<><Home/>
+            <ShopCategory key= 'tops'  categoryTitle='tops'/>
+            <ShopCategory key= 'bottom'  categoryTitle='bottoms'/>
+            <ShopCategory categoryTitle='dresses'/>
+            <ShopCategory categoryTitle='accessories'/>
+          </> } />
         <Route path = 'cart' element = {<Cart />} />
         <Route path = 'signin' element = {<SignInForm/>} />
         <Route path = 'signup' element = {<SignUpForm/>} />

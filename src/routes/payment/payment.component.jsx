@@ -15,9 +15,7 @@ const Payment = () => {
     }, [])
 
     return (
-        <div className='payment-page-container'  style={{
-            backgroundImage: `url(${BackgroundImage})`
-        }}>
+        <div className='payment-page-container'>
             <PaymentForm/> 
         </div>
     )

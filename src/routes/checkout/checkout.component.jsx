@@ -9,9 +9,7 @@ const Checkout = () => {
     const cartItems = useSelector(selectCartItems);
     const cartTotal = useSelector(selectCartTotal);
     return (
-        <div className='cart-container' style={{
-            backgroundImage: `url(${GreenBackground})`
-        }}>
+        <div className='cart-container'>
             <div className='cart-title-container'>
                 <h1>Checkout</h1>
             </div>

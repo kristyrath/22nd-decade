@@ -2,13 +2,11 @@
     padding: 5rem 0;
     min-height: 100vh;
     .cart-title-container {
-        background-color: #212e2d;
         text-align: center;
         margin: 0 auto;
         min-width: 24rem;
         max-width: 30vw;
         padding: 2rem 3rem;
-        border: solid 2px #212e2d;
 
         h1 {
             text-align: center;
@@ -19,20 +17,19 @@
     }
 
     .cart-content-wrapper{
-        border: solid 2px #212e2d;
         min-width: 24rem;
         max-width: 30vw;
         margin: 0 auto;
         padding: 3rem;
-        color: #ffffff;
-        background-color: #405554;
+        color: #000000;
+        background-color: #ededed;
 
         h3 { 
             font-family: 'Open Sans', sans-serif;
             font-weight: 300;
         }
         .line { 
-            border: solid #ffffff;
+            border: solid #000000;
             border-width: 0 0 1px 0;
             width: 100%;
             margin: 1rem 0;

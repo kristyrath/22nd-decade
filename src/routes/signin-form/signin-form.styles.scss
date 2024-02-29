@@ -3,13 +3,12 @@
     padding: 3rem 0;
     height: 100vh;
     .signin-form-container { 
-        background-color: #405554;
+        background-color: #ededed;
         width: 35rem;
         margin: 2rem auto 5rem auto;
         padding: 3rem 0;
         display: flex;
-        font-family: 'Open Sans', 'sans-serif';
-        color: #ffffff;
+        color: #000000;
         @media (max-width: 900px) {
             width: 50%;
             flex-direction: column-reverse;
@@ -23,10 +22,6 @@
         h1 { 
             text-align: center;
             color: #d37455;
-        }
-        input { 
-            font-family: 'Open Sans', 'sans-serif';
-    
         }
         .signin-input-container {
         
@@ -61,7 +56,7 @@
         .signup-link {
             text-decoration: none;
             color: #000000;
-            font-weight: bold;
+            font-weight: normal;
             border: solid #000000;
             border-width: 0 0 1px 0;
             margin: 0.4rem auto; 
