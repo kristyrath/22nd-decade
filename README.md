@@ -16,8 +16,8 @@
 - Uses **Google Auth API** for user authentication.
 - Uses **Stripe Paymetn API **for secure payment processing.
 
-| <span style="font-weight:normal">Home page</span>                                             | <span style="font-weight:normal">Catalogue page</span>                                        |
-| ------------------------------------------------------- | ------------------------------------------------------- |
-| ![9](/Users/kiwi/Downloads/Untitled design (4)/9.png)   | ![10](/Users/kiwi/Downloads/Untitled design (4)/10.png) |
-| *Authentation page*                                     | *Checkout page*                                         |
-| ![11](/Users/kiwi/Downloads/Untitled design (4)/11.png) | ![12](/Users/kiwi/Downloads/Untitled design (4)/12.png) |
+|                       |                  |
+| --------------------- | ---------------- |
+| *Home Page*           | *Catalogue Page* |
+|                       |                  |
+| *Authentication Page* | *Checkout Page*  |
