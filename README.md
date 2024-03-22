@@ -16,12 +16,8 @@
 - Uses **Google Auth API** for user authentication.
 - Uses **Stripe Paymetn API **for secure payment processing.
 
-|            ![9](https://github.com/kristyrath/22nd-decade/assets/88480572/e8bcae50-57e2-4a67-b754-46d23ab25099)
-           |  ![10](https://github.com/kristyrath/22nd-decade/assets/88480572/fd41ae74-a19f-4592-ad76-c51289b0602a)
-                |
-| --------------------- | ---------------- |
-| *Home Page*           | *Catalogue Page* |
-|  ![11](https://github.com/kristyrath/22nd-decade/assets/88480572/01d0d6d1-c296-4b67-be4d-09c697afc9c9)
-                     |      ![12](https://github.com/kristyrath/22nd-decade/assets/88480572/a74f8dc2-a8b8-4e05-befd-8e7fe77aa5fd)
-            |
-| *Authentication Page* | *Checkout Page*  |
+| ![9](https://github.com/kristyrath/22nd-decade/assets/88480572/e8bcae50-57e2-4a67-b754-46d23ab25099) | ![10](https://github.com/kristyrath/22nd-decade/assets/88480572/fd41ae74-a19f-4592-ad76-c51289b0602a) |
+| --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| *Home Page*                                                                                               | *Catalogue Page*                                                                                          |
+| ![11](https://github.com/kristyrath/22nd-decade/assets/88480572/01d0d6d1-c296-4b67-be4d-09c697afc9c9) | ![12](https://github.com/kristyrath/22nd-decade/assets/88480572/a74f8dc2-a8b8-4e05-befd-8e7fe77aa5fd) |
+| *Authentication Page*                                                                                     | *Checkout Page*                                                                                           |
