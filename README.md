@@ -14,7 +14,7 @@
 - **React** and **React-Redux** are used for building the front-end for a scalable and maintainable architecture for dynamic user interfaces.
 - Uses **Firestore, a NoSQL document database** to handle CRUD operations on user information and inventory data
 - Uses **Google Auth API** for user authentication.
-- Uses **Stripe Paymetn API **for secure payment processing.
+- Uses **Stripe Payment API** for secure payment processing.
 
 | ![9](https://github.com/kristyrath/22nd-decade/assets/88480572/e8bcae50-57e2-4a67-b754-46d23ab25099) | ![10](https://github.com/kristyrath/22nd-decade/assets/88480572/fd41ae74-a19f-4592-ad76-c51289b0602a) |
 | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
